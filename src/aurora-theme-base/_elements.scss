@@ -1,0 +1,9 @@
+// aurora-theme-base :: Elements
+
+a { 
+  color: inherit;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
