@@ -66,7 +66,8 @@ gulp.task('fonts', function(){
 // Watch
 gulp.task('watch', function() {
   gulp.watch('src/**/*.scss', ['scss']);
+  gulp.watch('src/fonts/**/*', ['fonts']);
   // livereload.listen();
 });
 
-gulp.task('default', ['scss']);
+gulp.task('default', ['fonts', 'scss']);
