@@ -24,7 +24,7 @@ var banner = [
   '\n'
 ].join('');
 
-
+// Scss Task
 gulp.task('scss', function() {
   var onError = function(err) {
     notify.onError({
@@ -53,6 +53,17 @@ gulp.task('scss', function() {
 
 });
 
+// Fonts Task
+gulp.task('fonts', function(){
+  return gulp.src('src/fonts/**/*.*')
+    .pipe(gulp.dest('dist/fonts/'))
+    .pipe(notify({
+      onLast: true,
+      message: 'fonts task complete!'
+    }));
+});
+
+// Watch
 gulp.task('watch', function() {
   gulp.watch('src/**/*.scss', ['scss']);
   // livereload.listen();
