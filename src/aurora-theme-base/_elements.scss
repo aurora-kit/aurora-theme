@@ -1,6 +1,7 @@
 // aurora-theme-base :: Elements
 
-a { 
+a,
+button { 
   color: inherit;
   transition: color $ae-theme-transition-time;
 
@@ -40,7 +41,15 @@ textarea {
   letter-spacing: .04em;
   margin-bottom: .5rem;
   padding: 2.2rem 3rem;
-  
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+
+button {
+  cursor: pointer;
   &:focus {
     outline: 0;
   }
