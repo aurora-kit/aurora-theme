@@ -9,3 +9,13 @@ a {
     text-decoration: none;
   }
 }
+
+blockquote {
+  border-left: 0;
+  font-family: $ae-theme-font-serif;
+  padding-left: 0;
+
+  footer {
+    font-family: $ae-theme-font-family;
+  }
+}
