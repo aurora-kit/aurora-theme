@@ -2,6 +2,19 @@
 $path: $ae-theme-font-path;
 
 @font-face {
+    font-family: 'Aileron';
+    font-style: normal;
+    font-weight: 300;
+
+    src: url('#{$path}aileron-light.eot');
+    src: url('#{$path}aileron-light.eot?#iefix') format('embedded-opentype'),
+         url('#{$path}aileron-light.woff2') format('woff2'),
+         url('#{$path}aileron-light.woff') format('woff'),
+         url('#{$path}aileron-light.ttf') format('truetype'),
+         url('#{$path}aileron-light.svg#aileronlight') format('svg');
+}
+
+@font-face {
   font-family: 'Aileron';
   font-style: normal;
   font-weight: 400;
