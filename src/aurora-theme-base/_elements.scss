@@ -7,6 +7,10 @@ button {
 
   &:hover {
     color: $ae-theme-active-color;
+  }
+
+  // Leave underline if using a helper
+  &:not(.au-underline) {
     text-decoration: none;
   }
 }
