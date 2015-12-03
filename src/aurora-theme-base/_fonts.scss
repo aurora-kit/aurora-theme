@@ -1,67 +1,77 @@
 // aurora-theme-base :: Fonts
 $path: $ae-theme-font-path;
 
-@font-face {
-    font-family: 'Aileron';
-    font-style: normal;
-    font-weight: 300;
-
-    src: url('#{$path}aileron-light.eot');
-    src: url('#{$path}aileron-light.eot?#iefix') format('embedded-opentype'),
-         url('#{$path}aileron-light.woff2') format('woff2'),
-         url('#{$path}aileron-light.woff') format('woff'),
-         url('#{$path}aileron-light.ttf') format('truetype'),
-         url('#{$path}aileron-light.svg#aileronlight') format('svg');
-}
+// @font-face {
+//     font-family: 'Aileron';
+//     font-style: normal;
+//     font-weight: 300;
+  
+//   src: url('#{$path}aileron-light.woff2') format('woff2'),
+//        url('#{$path}aileron-light.woff') format('woff');
+//     // src: url('#{$path}aileron-light.eot');
+//     // src: url('#{$path}aileron-light.eot?#iefix') format('embedded-opentype'),
+//     //      url('#{$path}aileron-light.woff2') format('woff2'),
+//     //      url('#{$path}aileron-light.woff') format('woff'),
+//     //      url('#{$path}aileron-light.ttf') format('truetype'),
+//     //      url('#{$path}aileron-light.svg#aileronlight') format('svg');
+// }
 
 @font-face {
   font-family: 'Aileron';
   font-style: normal;
   font-weight: 400;
-
-  src: url('#{$path}aileron-regular.eot');
-  src: url('#{$path}aileron-regular.eot?#iefix') format('embedded-opentype'),
-       url('#{$path}aileron-regular.woff2') format('woff2'),
-       url('#{$path}aileron-regular.woff') format('woff'),
-       url('#{$path}aileron-regular.ttf') format('truetype'),
-       url('#{$path}aileron-regular.svg#aileronregular') format('svg');
+  
+  src: url('#{$path}aileron-regular.woff2') format('woff2'),
+       url('#{$path}aileron-regular.woff') format('woff');
+  // src: url('#{$path}aileron-regular.eot');
+  // src: url('#{$path}aileron-regular.eot?#iefix') format('embedded-opentype'),
+  //      url('#{$path}aileron-regular.woff2') format('woff2'),
+  //      url('#{$path}aileron-regular.woff') format('woff'),
+  //      url('#{$path}aileron-regular.ttf') format('truetype'),
+  //      url('#{$path}aileron-regular.svg#aileronregular') format('svg');
 }
 
 @font-face {
   font-family: 'Aileron';
   font-style: normal;
   font-weight: 500;
-
-  src: url('#{$path}aileron-semibold.eot');
-  src: url('#{$path}aileron-semibold.eot?#iefix') format('embedded-opentype'),
-       url('#{$path}aileron-semibold.woff2') format('woff2'),
-       url('#{$path}aileron-semibold.woff') format('woff'),
-       url('#{$path}aileron-semibold.ttf') format('truetype'),
-       url('#{$path}aileron-semibold.svg#aileronsemibold') format('svg');
+  
+  src: url('#{$path}aileron-semibold.woff2') format('woff2'),
+       url('#{$path}aileron-semibold.woff') format('woff');
+  // src: url('#{$path}aileron-semibold.eot');
+  // src: url('#{$path}aileron-semibold.eot?#iefix') format('embedded-opentype'),
+  //      url('#{$path}aileron-semibold.woff2') format('woff2'),
+  //      url('#{$path}aileron-semibold.woff') format('woff'),
+  //      url('#{$path}aileron-semibold.ttf') format('truetype'),
+  //      url('#{$path}aileron-semibold.svg#aileronsemibold') format('svg');
 }
 
 @font-face {
   font-family: 'Aileron';
   font-style: normal;
   font-weight: 700;
-
-  src: url('#{$path}aileron-bold.eot');
-  src: url('#{$path}aileron-bold.eot?#iefix') format('embedded-opentype'),
-       url('#{$path}aileron-bold.woff2') format('woff2'),
-       url('#{$path}aileron-bold.woff') format('woff'),
-       url('#{$path}aileron-bold.ttf') format('truetype'),
-       url('#{$path}aileron-bold.svg#aileronbold') format('svg');
+  
+  src: url('#{$path}aileron-bold.woff2') format('woff2'),
+       url('#{$path}aileron-bold.woff') format('woff');
+  // src: url('#{$path}aileron-bold.eot');
+  // src: url('#{$path}aileron-bold.eot?#iefix') format('embedded-opentype'),
+  //      url('#{$path}aileron-bold.woff2') format('woff2'),
+  //      url('#{$path}aileron-bold.woff') format('woff'),
+  //      url('#{$path}aileron-bold.ttf') format('truetype'),
+  //      url('#{$path}aileron-bold.svg#aileronbold') format('svg');
 }
 
 @font-face {
   font-family: 'Aileron';
   font-style: normal;
   font-weight: 900;
-
-  src: url('#{$path}aileron-black.eot');
-  src: url('#{$path}aileron-black.eot?#iefix') format('embedded-opentype'),
-       url('#{$path}aileron-black.woff2') format('woff2'),
-       url('#{$path}aileron-black.woff') format('woff'),
-       url('#{$path}aileron-black.ttf') format('truetype'),
-       url('#{$path}aileron-black.svg#aileronblack') format('svg');
+  
+  src: url('#{$path}aileron-black.woff2') format('woff2'),
+       url('#{$path}aileron-black.woff') format('woff');
+  // src: url('#{$path}aileron-black.eot');
+  // src: url('#{$path}aileron-black.eot?#iefix') format('embedded-opentype'),
+  //      url('#{$path}aileron-black.woff2') format('woff2'),
+  //      url('#{$path}aileron-black.woff') format('woff'),
+  //      url('#{$path}aileron-black.ttf') format('truetype'),
+  //      url('#{$path}aileron-black.svg#aileronblack') format('svg');
 }
