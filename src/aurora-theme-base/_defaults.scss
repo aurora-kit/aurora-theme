@@ -1,6 +1,9 @@
 // aurora-theme-base :: Defaults
 
 body {
-  font-family: $ae-font-family;
   line-height: 1.556;
+}
+
+.font-ready body {
+  font-family: $ae-font-family;
 }
